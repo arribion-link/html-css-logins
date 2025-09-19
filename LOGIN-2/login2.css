@@ -1,0 +1,53 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(40, 186, 186);
+    margin: 20px;
+}
+.form{
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    background-image: url(log.jpg);
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px black;
+    width:250px;
+}
+.heading{
+    font-family: arial;
+    text-align: center;
+    color: rgb(252, 252, 252);
+    font-size: 15px;
+}
+input{
+    border:1px solid silver;
+    color: #fff;
+    background-color: transparent;
+    padding: 6px;
+    font-size: medium;
+    width: 235px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    background-color:   rgb(44, 99, 148);
+    color: #ffffff;
+    font-size: large;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+
+
+    cursor: pointer;
+    &:hover{
+        background-color:  rgb(1, 122, 243);
+    }
+}
+
